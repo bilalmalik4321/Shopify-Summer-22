@@ -60,7 +60,6 @@ router.delete("/:inventoryId", async (req, res)=>{
 
     try{
         const removedInventory = await Inventory.deleteOne({_id: req.params.inventoryId});
-         console.log("n here");
         res.status(200).json(removedInventory);
     }
     catch(err){
