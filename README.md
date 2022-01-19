@@ -104,7 +104,9 @@ cd shopify-backend-2022/backend
  Fill the form with the pertaining information for the inventory item.
  
  Your form will look something like this:
- ![A9BBBEE1-8ECC-4159-B32C-1D1E14CD2B4F](https://user-images.githubusercontent.com/45467181/150185521-25c469a0-b84f-47f5-b889-02971f6645f6.jpeg)
+ 
+ ![43E69AC6-319D-47D9-BA5A-40F1552E5F87](https://user-images.githubusercontent.com/45467181/150206113-dcb89d0b-8a11-4d01-93c5-ea556a9bc6c9.jpeg)
+
 
  You can now either cancel, creating the item, or submit it. Let's submit so we have our first inventory item to work with in the inventory screen.
  
@@ -112,7 +114,9 @@ cd shopify-backend-2022/backend
  
  You'll be routed back to the homescreen where you can see a new inventroy item, with the inforamtion displayed, and two buttons next to its name, 'update'
  and 'delete'.
- ![28553D4F-B7BF-4CC7-9785-950C6CBFE9E0](https://user-images.githubusercontent.com/45467181/150199152-5fe29ead-0a6e-4669-acba-43edbe64c945.jpeg)
+ 
+![F3FBB4E7-AA15-4725-A556-343EDD3790DF](https://user-images.githubusercontent.com/45467181/150206275-aafe6c13-602b-48d4-8376-3299aa43f65a.jpeg)
+
  
   #### Update Inventory item
  
@@ -121,7 +125,9 @@ cd shopify-backend-2022/backend
  not occur and ofcourse if we submit, then we'll see the update to our inventory item. Lets press 'Submit'.
  
  Will be routed back to the inventory screen where we can see the changes to the inventory item. In my case, my item looks like so:
- ![90C55644-D978-4A3D-B76F-8F5C5E0E8CAF](https://user-images.githubusercontent.com/45467181/150199923-8a515600-372c-4f3f-9cd9-269555c84b16.jpeg)
+ 
+ ![5A1068CC-5371-4C51-93CD-E1EBA96C32D4](https://user-images.githubusercontent.com/45467181/150206498-57679fc5-6138-4b16-b1c1-537478a5598e.jpeg)
+
 
 #### Export Inventory items to CSV
 
