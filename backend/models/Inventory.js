@@ -1,9 +1,10 @@
-/*
-This file builds the Inventory document schema
-*/
+//This file builds the Inventory document schema
 
+//import mongoose library for mongodb object modeling for node.js
 const mongoose = require("mongoose");
 
+//inventory object takes these values, if you send a request without the specified values
+//it will not create the document as the fields are required
 const InventorySchema = mongoose.Schema({
     name: {
         type: String,
@@ -18,11 +19,11 @@ const InventorySchema = mongoose.Schema({
         required: true
     },
     itemPrice: {
-        type: String,
-        default: "No Listed Price"
-    },
-    discountPrice: String
+        type: Number,
+        required: true
+    }
 });
 
+//export the mongoose object
 module.exports = mongoose.model('Inventory', InventorySchema);
 
