@@ -3,13 +3,15 @@
 This application has all CRUD operations as well as an additional feature of exporting the inventory as a `csv`.
 
 
-### Run Locally
+## Run Locally
 
 #### Pre-requisute
 
 Make sure you have `docker` installed, I'm running `20.10.8` though most docker versions should be compatible.
 
 As well make sure you have `git`, and `npm`. I'm running `git` version `2.31.1`, and `npm` version `6.14.5`.
+
+#### Steps
 
 1. Start by running mongo db locally, with the mongo image.
 This can be done with the following command:
@@ -88,7 +90,7 @@ cd shopify-backend-2022/backend
  
  Go to  `localhost:3000` and the inventory app is ready!
  
- ### How to use the App
+ ## How to use the App
  
  The application will normally start with a 'Inventory Item', and two buttons 'Add Inventory Item', 'Export to CSV'.
  It will look like the following image:![8510AB4D-AD88-4B9B-ACE9-5186A2E76AAD](https://user-images.githubusercontent.com/45467181/150185006-33f593c8-da7b-46ea-a2f5-838aa7100f28.jpeg)
@@ -129,5 +131,9 @@ like so:
 
 #### Delete Inventory item
 
-Now let's delete the inventory item.
+Now let's delete the inventory item. In the home page where we see our list of items, press the delete button next to the item. The button looks like the 
+following:
+![7F0F1512-0817-410C-B5FA-D2B281902564_4_5005_c](https://user-images.githubusercontent.com/45467181/150201305-c2e003a2-f143-4d55-9866-18cb32fbc6c1.jpeg)
+
+You'll now see your inventory item list update, with item dissapearing.
  
