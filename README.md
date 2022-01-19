@@ -127,12 +127,14 @@ cd shopify-backend-2022/backend
 
 Lets export the items as a csv! Press the 'Export to CSV' button and you will get a downloaded csv file. Open to see all your inventory items. The button looks 
 like so:
+
  ![C198F646-F7EB-4853-9237-AC4151C5CC06_4_5005_c](https://user-images.githubusercontent.com/45467181/150200510-9966a215-8eff-4620-b4d9-3b39cff2a4b1.jpeg)
 
 #### Delete Inventory item
 
 Now let's delete the inventory item. In the home page where we see our list of items, press the delete button next to the item. The button looks like the 
 following:
+
 ![7F0F1512-0817-410C-B5FA-D2B281902564_4_5005_c](https://user-images.githubusercontent.com/45467181/150201305-c2e003a2-f143-4d55-9866-18cb32fbc6c1.jpeg)
 
 You'll now see your inventory item list update, with item dissapearing.
