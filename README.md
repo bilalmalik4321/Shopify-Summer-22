@@ -1,5 +1,7 @@
 # Shopify-Summer-22
 
+This repo holds the backend implementation of the Shopify challenge, and acts as a monrorepo for the frontend code. The frontend repo subrepo can be found [here](https://github.com/bilalmalik4321/Shopify-Summer-22-frontend).
+
 This application has all CRUD operations as well as an additional feature of exporting the inventory as a `csv`.
 
 
