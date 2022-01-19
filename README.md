@@ -92,7 +92,7 @@ cd shopify-backend-2022/backend
  
  ## How to use the App
  
- The application will normally start with a 'Inventory Item', and two buttons 'Add Inventory Item', 'Export to CSV'.
+ The application will start with an 'Inventory Item' header, and two buttons 'Add Inventory Item', 'Export to CSV'.
  It will look like the following image:![8510AB4D-AD88-4B9B-ACE9-5186A2E76AAD](https://user-images.githubusercontent.com/45467181/150185006-33f593c8-da7b-46ea-a2f5-838aa7100f28.jpeg)
 
  This is because we havent added any inventory to our mongo db. 
