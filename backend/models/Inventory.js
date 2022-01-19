@@ -1,3 +1,7 @@
+/*
+This file builds the Inventory document schema
+*/
+
 const mongoose = require("mongoose");
 
 const InventorySchema = mongoose.Schema({
