@@ -48,5 +48,37 @@ To install the modules and dependencies run:
  node server.js
  ```
  
- Finally we will run the front end of our app. I've put this an custom dockerfile, that you can build and then run.
+ Finally we will run the front end of our app. The front end is placed in its own repo, and as part of the gneral monorepo here. 
+ Clone into either a seperate directory or under `/frontend` the front end repo with:
  
+ ```
+ git clone https://github.com/bilalmalik4321/Shopify-Summer-22-frontend.git
+ ```
+ Now that we have the repo, from where we cloned the repo, cd into it with: 
+ 
+ ```
+ cd Shopify-Summer-22-frontend
+ ```
+ 
+ You will see a Dockerfile by running `ls`, we will build the front end app, which is placed in its own custom image.
+ Start by building the image with:
+ 
+ ```
+ docker build -t shopify-challenge-frontend:latest .
+ ```
+ 
+ Or any other name you'd like instead of 'shopify-challenge-frontend'. 
+ 
+ Once the image is built, we want to run the image, this will create a container, think of it as a small isolated environment where the app runs away from
+ the host OS.
+ 
+ To run our image:
+ 
+ ```
+ docker run -p 3000:3000 shopify-challenge-frontend:latest
+ ```
+ 
+ Where we run the image on port our computer port 3000 form the internal port of docker at 3000. If you want to chage the port, just chane the first
+ port number before the colon ":" as that wil map to a new port on our machine. Please don't use 5000 as thats already being used by the Node app.
+ 
+ Go to  `localhost:3000` and the inventory app is ready!
