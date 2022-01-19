@@ -15,7 +15,7 @@ docker pull mongo
 
 This command is to get the mongo image from the official Mongo repo on dockerhub.
 
-Then we build the image with our own specfic credentials, say we want to run on port 27888 as thats where our API will look,
+Then we build the image with our own specfic credentials, say we want to run on port 27888 as thats where this API will look,
 and specifying the db role and password as the following:
 
 ```
