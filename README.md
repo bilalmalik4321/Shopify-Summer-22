@@ -15,7 +15,7 @@ As well make sure you have `git`, and `npm`. I'm running `git` version `2.31.1`,
 
 #### Steps
 
-1. Start by running mongo db locally, with the mongo image.
+0. Start by running mongo db locally, with the mongo image.
 This can be done with the following command:
 
 ```
@@ -24,7 +24,7 @@ docker pull mongo
 
 This command is to get the mongo image from the official Mongo repo on dockerhub.
 
-3. Then we build the image with our own specfic credentials, say we want to run on port 27888 as thats where this API will look,
+2. Then we build the image with our own specfic credentials, say we want to run on port 27888 as thats where this API will look,
 and specifying the db role and password as the following:
 
 ```
@@ -33,43 +33,43 @@ docker run -d  --name mongo-for-shopify  -p 27888:27017 -e MONGO_INITDB_ROOT_USE
 Running the mongo image, does not need anything from our code, though these steps are also detailed in our repo under `/backend/db/mongo.sh`,
 an sh file that runs the previous commands.
 
-4. Now that our DB is running, we can set up the API. I've built the backend API in Node. Lets clone this repo, do this by running:
+3. Now that our DB is running, we can set up the API. I've built the backend API in Node. Lets clone this repo, do this by running:
 
 ```
 git clone https://github.com/bilalmalik4321/Shopify-Summer-22.git
 ```
 
-5. Then we go into our app, by running:
+4. Then we go into our app, by running:
 
 ```
 cd shopify-backend-2022/backend
 ```
 
-6. To install the modules and dependencies run: 
+5. To install the modules and dependencies run: 
 
  ```
  npm i
  ```
  
- 7. And then you can run the node server by:
+ 6. And then you can run the node server by:
  
  ```
  node server.js
  ```
  
- 8. Finally we will run the front end of our app. The front end is placed in its own repo, and as part of the gneral monorepo here. 
+ 7. Finally we will run the front end of our app. The front end is placed in its own repo, and as part of the gneral monorepo here. 
  Clone into either a seperate directory or under `/frontend` the front end repo with:
  
  ```
  git clone https://github.com/bilalmalik4321/Shopify-Summer-22-frontend.git
  ```
- 9. Now that we have the repo, from where we cloned the repo, cd into it with: 
+ 8. Now that we have the repo, from where we cloned the repo, cd into it with: 
  
  ```
  cd Shopify-Summer-22-frontend
  ```
  
- 10. You will see a Dockerfile by running `ls`, we will build the front end app, which is placed in its own custom image.
+ 9. You will see a Dockerfile by running `ls`, we will build the front end app, which is placed in its own custom image.
  Start by building the image with:
  
  ```
@@ -78,7 +78,7 @@ cd shopify-backend-2022/backend
  
  Or any other name you'd like instead of 'shopify-challenge-frontend'. 
  
- 11. Once the image is built, we want to run the image, this will create a container, think of it as a small isolated environment where the app runs away from
+ 10. Once the image is built, we want to run the image, this will create a container, think of it as a small isolated environment where the app runs away from
  the host OS.
  
  To run our image:
