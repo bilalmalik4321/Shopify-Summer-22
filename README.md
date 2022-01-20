@@ -6,6 +6,7 @@ This application has all CRUD operations as well as an additional feature of exp
 
 ## View the deployed application
 Visit [here](https://bilal-shopify-frontend.herokuapp.com) to see the front end of the application.
+
 Visit [here](https://floating-scrubland-49832.herokuapp.com) to view the API. You can also interact with it through postman.
 
 ## Run Locally
